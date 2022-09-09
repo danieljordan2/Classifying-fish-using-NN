@@ -211,14 +211,10 @@ y = np.array([[0],
 [1], 
 [1]])
 
-#IMPORTANTE: Se puede haber llegado a los valores ideales de alpha y epochs. Sin embargo, dado que los pesos son elegidos de forma aleatoria, al correr varias veces el algortimo los resultados pueden variar ostensiblemente (aún conservando los parámetros ideales). Se sugiere probar varias veces con los mismos parámetros para observar distintos resultados
-
-#RESULTADO: el vector de pesos para el mejor resultado es [w1=0.67959939 w2=-0.20796404  b=0.24145]. La ecuación del classification boundary sería x2 = 3.28x1 + 1.16 (x2 = -(w1/w2)x1 - (b/w2))
-
 # define our perceptron and train it
 
 print("[INFO] training perceptron...")
-p = Perceptron(X.shape[1], alpha=0.00001)	#Igual que Samarasinghe con alpha=0.00001 y epochs=80
+p = Perceptron(X.shape[1], alpha=0.00001)	#alpha=0.00001 y epochs=80
 p.fit(X, y, epochs=80)
 
 # now that our perceptron is trained we can evaluate it
