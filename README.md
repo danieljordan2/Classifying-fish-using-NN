@@ -14,7 +14,7 @@ Source: Samarasinghe S. [1]. Own elaboration.
 
 ## Objective
 
-Identifyng the origing of fish from the growth-ring diameter of scales using different Neural Network algorithms.
+Identifying the origin of fish from the growth-ring diameter of scales using different Neural Network algorithms.
 
 ## Results
 
