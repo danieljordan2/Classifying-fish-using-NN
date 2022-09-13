@@ -1,4 +1,4 @@
-# Classfying-fish-using-NN
+# Classifying-fish-using-NN
 
 
 This is a simple case using real data and was solved using a single neuron perceptron.
